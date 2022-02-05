@@ -1,3 +1,81 @@
+.container {
+    display: grid;
+    height: 5055px;
+    grid-template-rows: 105px 3530px 417px;
+    grid-template-areas:
+        "header"
+        "main"
+        "footer";
+    padding-left: 135px;
+
+}
+
+.header {
+    grid-area: header;
+}
+
+.main {
+    grid-area: main;
+
+}
+
+.footer {
+    grid-area: footer;
+
+}
+
+.projectlorum {
+    height: 949px;
+    display: grid;
+    grid-template-columns: 400px 770px;
+
+}
+
+.about {
+    height: 585px;
+
+}
+
+.mainfocus {
+    height: 388px;
+}
+
+.ourprojects {
+    height: 885px;
+}
+
+.contactus {
+    height: 723px;
+}
+
+.projectlorumimg {
+    width: 770px;
+    height: 829px;
+    background-image: url(/assets/pics/Rectangle\ 6.jpg);
+}
+
+.projectlorumtitle {
+    padding-top: 333px;
+}
+
+h2 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 64px;
+    line-height: 64px;
+    color: #BDBDBD;
+}
+
+h3 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 64px;
+    color: #333333;
+}
+
 footer {
     background-image: url(/assets/pics/Rectangle\ 11.png);
     display: grid;
@@ -169,5 +247,4 @@ h3.ft {
     line-height: 22px;
     align-items: center;
     color: rgba(200, 200, 200, 0.5);
-
 }
