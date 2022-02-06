@@ -22,13 +22,18 @@
     justify-self: start;
 }
 
+a.head {
+    text-decoration: none;
+
+}
+
 .header-nav {
     display: flex;
     justify-content: space-between;
     list-style: none;
     font-family: Roboto;
     font-style: normal;
-    text-decoration: none;
+
     text-transform: uppercase;
     font-weight: 4001;
     font-size: 12px;
