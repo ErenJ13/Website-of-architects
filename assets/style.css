@@ -13,34 +13,29 @@
     grid-area: header;
     display: grid;
     grid-template-columns: 3fr 7fr;
-    justify-content: space-around;
     align-items: center;
 }
 
 .header-logo {
     justify-self: start;
-    max-width: 100%;
 }
 
 .header-nav {
     display: flex;
     justify-content: space-between;
-    list-style-type: none;
-    text-decoration: none;
+    list-style: none;
     font-family: Roboto;
     font-style: normal;
+    text-decoration: none;
+    font-weight: 400;
     font-size: 12px;
+    letter-spacing: 0.2em;
     line-height: 12px;
     color: #333333;
 }
 
 .main {
     grid-area: main;
-
-}
-
-.footer {
-    grid-area: footer;
 
 }
 
