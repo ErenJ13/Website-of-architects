@@ -12,8 +12,10 @@
 .header {
     grid-area: header;
     display: grid;
-    grid-template-columns: 3fr 7fr;
+    grid-template-columns: 1fr 2fr;
     align-items: center;
+    padding-right: 200px;
+
 }
 
 .header-logo {
@@ -28,7 +30,7 @@
     font-style: normal;
     text-decoration: none;
     text-transform: uppercase;
-    font-weight: 400;
+    font-weight: 4001;
     font-size: 12px;
     letter-spacing: 0.2em;
     line-height: 12px;
