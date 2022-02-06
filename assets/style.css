@@ -23,8 +23,15 @@
 }
 
 .header-nav {
+    display: flex;
+    justify-content: space-between;
     list-style-type: none;
     text-decoration: none;
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 12px;
+    line-height: 12px;
+    color: #333333;
 }
 
 .main {
