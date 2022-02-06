@@ -136,7 +136,7 @@ h3 {
 footer {
     background-image: url(/assets/pics/Rectangle\ 11.png);
     display: grid;
-    justify-content: space-around;
+    justify-content: end;
     grid-area: footer;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: auto;
@@ -145,7 +145,7 @@ footer {
     width: 1440px;
     height: 417px;
     left: 0px;
-    top: 3635px;
+    top: 5055px;
     padding-bottom: 50px;
 }
 
