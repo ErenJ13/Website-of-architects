@@ -74,33 +74,43 @@ a.head {
 
 .section-mainfocus {
     display: grid;
-    grid-template-columns: 0.2fr 1.5fr 0.4fr 1.5fr;
+    grid-template-columns: 0.2fr 1fr 0.3fr 1fr;
     grid-template-areas: "letter1 paragraph1 letter2 paragraph2";
 }
 
 .letter1 {
     grid-area: letter1;
+    justify-self: start;
 }
 
 .letter2 {
     grid-area: letter2;
+    justify-self: start;
 }
 
 .paragraph1 {
     grid-area: paragraph1;
+    justify-self: start;
+    margin: 0;
+    margin-right: 7em;
     font-family: Roboto;
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 22px;
+    line-height: 36px;
     color: #333333;
 }
 
 .paragraph2 {
     grid-area: paragraph2;
+    justify-self: start;
+    margin: 0;
+    margin-right: 7em;
     font-family: Roboto;
     font-style: normal;
     font-weight: 200;
-    font-size: 20px;
+    font-size: 22px;
+    line-height: 36px;
     color: #333333;
 }
 
