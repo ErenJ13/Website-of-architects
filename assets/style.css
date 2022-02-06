@@ -12,7 +12,7 @@
 .header {
     grid-area: header;
     display: grid;
-    grid-template-columns: 3fr 7fr;
+    grid-template-columns: 350px 800px;
     align-items: center;
 }
 
@@ -22,7 +22,7 @@
 
 .header-nav {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     list-style: none;
     font-family: Roboto;
     font-style: normal;
@@ -34,6 +34,8 @@
     line-height: 12px;
     color: #333333;
 }
+
+
 
 .main {
     grid-area: main;
@@ -145,17 +147,13 @@ h3 {
 
 footer {
     background-image: url(/assets/pics/Rectangle\ 11.png);
-    display: grid;
-    justify-content: space-around;
-    grid-area: footer;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: auto;
     position: absolute;
+    grid-area: footer;
     width: 1440px;
-    height: 417px;
+    height: 450px;
     left: 0px;
-    top: 3635px;
-    padding-bottom: 50px;
+    top: 5500px;
+
 
 }
 
