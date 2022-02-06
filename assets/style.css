@@ -56,6 +56,57 @@
     height: 388px;
 }
 
+.mainfocus-title {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 64px;
+    line-height: 64px;
+    color: #BDBDBD;
+}
+
+.section-mainfocus {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr 2fr;
+    grid-template-areas: "letter1 paragraph1 letter2 paragraph2";
+}
+
+.letter1 {
+    grid-area: letter1;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 200px;
+    color: #F2F2F2;
+}
+
+.letter2 {
+    grid-area: letter2;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 200px;
+    color: #F2F2F2;
+}
+
+.paragraph1 {
+    grid-area: paragraph1;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #333333;
+}
+
+.paragraph2 {
+    grid-area: paragraph2;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 20px;
+    color: #333333;
+}
+
 .ourprojects {
     height: 885px;
 }
