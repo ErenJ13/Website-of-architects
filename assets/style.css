@@ -24,7 +24,16 @@
 
 a.head {
     text-decoration: none;
+    list-style: none;
+    font-family: Roboto;
+    font-style: normal;
 
+    text-transform: uppercase;
+    font-weight: 4001;
+    font-size: 12px;
+    letter-spacing: 0.2em;
+    line-height: 12px;
+    color: #333333;
 }
 
 .header-nav {
