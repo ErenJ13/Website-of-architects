@@ -72,7 +72,9 @@ a.head {
     height: 388px;
 }
 
-.mainfocus-title {
+.section-title {
+    margin: 0;
+    margin-bottom: 1em;
     font-family: Roboto;
     font-style: normal;
     font-weight: 300;
@@ -90,11 +92,13 @@ a.head {
 .letter1 {
     grid-area: letter1;
     justify-self: start;
+    align-self: center;
 }
 
 .letter2 {
     grid-area: letter2;
     justify-self: start;
+    align-self: center;
 }
 
 .paragraph1 {
@@ -125,6 +129,32 @@ a.head {
 
 .ourprojects {
     height: 885px;
+}
+
+.projects {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: #FBFBFB;
+}
+
+.box1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-text {
+    position: relative;
+}
+
+.box2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
 
 .contactus {
