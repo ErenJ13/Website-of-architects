@@ -7,7 +7,6 @@ body {
 }
 
 .container {
-    display: grid;
 
     grid-template-rows: 105px 3530px 417px;
     grid-template-areas:
@@ -18,6 +17,30 @@ body {
     max-height: 100%;
     justify-content: center;
     border: 10px double black;
+}
+
+.container1 {
+    grid-template-rows: 105px 902px 417px;
+    grid-template-areas:
+        "header"
+        "main"
+        "footer";
+    max-width: 1440px;
+    max-height: 100%;
+    justify-content: center;
+
+}
+
+.container2 {
+    grid-template-rows: 105px 802px 417px;
+    grid-template-areas:
+        "header"
+        "main"
+        "footer";
+    max-width: 100%;
+    max-height: 100%;
+    justify-content: center;
+
 }
 
 .header {
@@ -167,8 +190,6 @@ h3 {
     font-weight: normal;
     font-size: 12px;
     line-height: 12px;
-    /* identical to box height, or 100% */
-
     letter-spacing: 0.2em;
     text-transform: uppercase;
 
@@ -221,8 +242,8 @@ h3 {
 
 }
 
-.nfocontacttitle {
-    padding-top: 333px;
+.infocontacttitle {
+    padding-top: 33px;
 }
 
 .adress {
@@ -433,15 +454,16 @@ footer {
     background-image: url(/assets/pics/Rectangle\ 11.png);
     display: grid;
     justify-content: end;
+
     grid-area: footer;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: auto;
+
     position: absolute;
     overflow: hidden;
     width: 1440px;
     height: 417px;
     left: 0px;
-    top: 5055px;
+
     padding-bottom: 50px;
 }
 
@@ -525,12 +547,12 @@ h3.ft {
     color: #FFFFFF;
 }
 
-.map {
+.map1 {
 
-    left: 50.12%;
-    right: 62.11%;
-    top: 37.0%;
-    bottom: 71.46%;
+    width: 700px;
+    height: 600px;
+    left: 150px;
+    top: 300px;
     box-sizing: border-box;
 }
 
@@ -600,4 +622,26 @@ h3.ft {
     line-height: 22px;
     align-items: center;
     color: rgba(200, 200, 200, 0.5);
+}
+
+
+
+.certification {
+    height: 949px;
+    display: grid;
+
+    grid-template-rows: 1fr 1fr 1fr;
+    justify-content: start;
+    margin: auto;
+
+
+}
+
+.certificate {
+    padding-top: 33px;
+}
+
+.certificate1 {
+    width: 400px;
+    border: 1px solid#333333;
 }
