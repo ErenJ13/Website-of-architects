@@ -1,12 +1,23 @@
+body {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 10px double black;
+}
+
 .container {
     display: grid;
-    height: 5055px;
+
     grid-template-rows: 105px 3530px 417px;
     grid-template-areas:
         "header"
         "main"
         "footer";
-    padding-left: 135px;
+    max-width: 1440px;
+    max-height: 100%;
+    justify-content: center;
+    border: 10px double black;
 }
 
 .header {
@@ -15,6 +26,7 @@
     grid-template-columns: 2fr 3fr;
     align-items: center;
     padding-right: 200px;
+    border: 10px double black;
 
 }
 
@@ -53,7 +65,10 @@ a.head {
 
 .main {
     grid-area: main;
+    padding-left: 135px;
 
+    max-height: 100%;
+    border: 10px double black;
 }
 
 .projectlorum {
