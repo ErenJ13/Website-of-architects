@@ -1,9 +1,13 @@
-body {
+.body {
 
+    max-width: 1440px;
     display: flex;
+    width: 100%;
     align-items: center;
     justify-content: center;
-    border: 10px double black;
+    border: 10px double rgb(209, 69, 69);
+    margin: 0 auto;
+
 }
 
 .container {
@@ -14,10 +18,11 @@ body {
         "header"
         "main"
         "footer";
-    max-width: 1440px;
+    max-width: 100%;
     max-height: 100%;
-    justify-content: center;
+
     border: 10px double black;
+
 }
 
 .header {
@@ -32,6 +37,7 @@ body {
 
 .header-logo {
     justify-self: start;
+    padding-left: 135px;
 }
 
 a.head {
@@ -258,14 +264,12 @@ a.head {
     height: 19px;
     left: 135px;
     top: 491px;
-
     font-family: Roboto;
     font-style: normal;
     font-weight: 300;
     font-size: 16px;
     line-height: 19px;
     /* identical to box height */
-
 
     color: #333333;
 }
@@ -352,19 +356,16 @@ a.head {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-
 }
 
 .prjct1-text {
     display: flex;
     background-color: rgba (0, 0, 0.3);
     background-image: url(/assets/pics/Rectangle_12.jpg);
-
     width: 570px;
     height: 255px;
     left: 135px;
     top: 2151px;
-
 }
 
 .prjct1-text1 {
@@ -384,10 +385,6 @@ a.head {
     top: 2151px;
     display: flex;
     justify-content: center;
-
-
-
-
 }
 
 .box2 {
@@ -403,11 +400,9 @@ a.head {
 
 .projectlorumimg {
     display: flex;
-
     align-items: flex-end;
     width: 770px;
     height: 829px;
-
     background-image: url(/assets/pics/Rectangle\ 6.jpg);
 }
 
@@ -440,30 +435,21 @@ footer {
     grid-area: footer;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: auto;
-    position: absolute;
-    overflow: hidden;
-    width: 1440px;
-    height: 417px;
-    left: 0px;
-    top: 5055px;
-    padding-bottom: 50px;
+
+
 }
 
 .logoft {
-
-    position: absolute;
     width: 145px;
     height: 94px;
-    left: 50px;
-    top: 58px;
+    padding-top: 30px;
+    padding-left: 135px;
 
 }
 
 .info {
-    position: absolute;
-    width: 1440px;
-    height: 417px;
-    left: 400px;
+
+
     top: 20px;
     font-family: Roboto;
     font-style: normal;
@@ -474,20 +460,10 @@ footer {
     color: #FFFFFF;
 }
 
-.contact {
-    position: absolute;
-    top: 20px;
-    left: 700px;
-}
+.contact {}
 
 .social {
-    position: absolute;
-    width: 193px;
-    height: 64px;
-    right: 140px;
-    top: 20px;
-
-
+    margin: 3px;
 }
 
 a.ft {
@@ -548,43 +524,37 @@ h3.ft {
 
 .facebook {
 
-    position: absolute;
     width: 10px;
     height: 19px;
-    left: 1px;
-    top: 100px;
+
 }
 
 .twitter {
-    position: absolute;
+
     width: 22px;
     height: 17px;
-    left: 51px;
-    top: 103px;
+
 }
 
 .linkedin {
-    position: absolute;
+
     width: 20px;
     height: 20px;
-    left: 113px;
-    top: 101px;
+
 }
 
 .pinterest {
-    position: absolute;
+
     width: 14px;
     height: 19px;
-    left: 173px;
-    top: 102px;
+
 }
 
 .line {
-    position: absolute;
+
     width: 1440px;
     height: 0px;
-    left: 0px;
-    bottom: 70px;
+
 
     mix-blend-mode: normal;
     opacity: 0.1;
@@ -592,11 +562,10 @@ h3.ft {
 }
 
 .copyright {
-    position: absolute;
+
     width: 150px;
     height: 22px;
-    right: 699px;
-    bottom: 24px;
+
     font-family: Open Sans;
     font-style: normal;
     font-weight: normal;
