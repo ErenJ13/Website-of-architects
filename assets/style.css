@@ -12,7 +12,7 @@
 .header {
     grid-area: header;
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 2fr 3fr;
     align-items: center;
     padding-right: 200px;
 
@@ -59,9 +59,202 @@ a.head {
 .projectlorum {
     height: 949px;
     display: grid;
+    grid-template-columns: 1fr 2fr;
+
+}
+
+.num1 {
+    width: 141.88px;
+    height: 31px;
+
+    top: 799px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 24px;
+    color: #BDBDBD;
+}
+
+.btn1 {
+    background-image: url(/assets/pics/Group9.png);
+    width: 52.95px;
+    height: 53px;
+
+    top: 656px;
+
+    border: 1px solid #F2F2F2;
+    box-sizing: border-box;
+}
+
+.btn2 {
+    background-image: url(/assets/pics/Frame8.png);
+    width: 52.95px;
+    height: 53px;
+    left: 210.94px;
+    top: 656px;
+
+    border: 1px solid #F2F2F2;
+    box-sizing: border-box;
+}
+
+.lightbtn {
+    display: flex;
+    align-items: flex-end;
+    background-image: url(/assets/pics/Frame10.svg);
+    width: 221.81px;
+    height: 73px;
+    left: 534.66px;
+    top: 850px;
+    border: #ffffff;
+
+}
+
+.lightbtn1 {
+
+    background-image: url(/assets/pics/Group\ 12.svg);
+    width: 129px;
+    height: 24px;
+    left: 214px;
+    top: 2335px;
+    background-color: Transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    text-align: center;
+    outline: none;
+    text-decoration: none;
+    font-family: Gothic A1;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 12px;
+    /* identical to box height, or 100% */
+
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+
+}
+
+.lightbtn2 {
+    display: flex;
+    align-items: flex-end;
+    background-image: url(/assets/pics/Frame\ 11\ \(1\).svg);
+    width: 221.81px;
+    height: 73px;
+    left: 534.66px;
+    top: 850px;
+    border: #ffffff;
+}
+
+.lightbtn3 {
+    display: flex;
+    align-items: flex-end;
+    background-image: url(/assets/pics/Frame\ 11\ \(2\).svg);
+    width: 221.81px;
+    height: 73px;
+    left: 534.66px;
+    top: 850px;
+    border: #ffffff;
+}
+
+.darkbtn {
+    background-image: url(/assets/pics/Rectangle\ 1.svg);
+    width: 221.81px;
+    height: 71px;
+    left: 71px;
+    top: 30px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 12px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.infocontact {
+    height: 949px;
+    display: grid;
     grid-template-columns: 400px 770px;
 
 }
+
+.nfocontacttitle {
+    padding-top: 333px;
+}
+
+.adress {
+
+    width: 280px;
+    height: 46px;
+    left: 135px;
+    top: 350px;
+
+    font-family: Roboto;
+    font-style: normal;
+
+    font-size: 16px;
+    line-height: 21px;
+
+    color: #333333;
+}
+
+.adress1 {
+
+    width: 280px;
+    height: 46px;
+    left: 135px;
+    top: 327px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+
+    color: #333333;
+}
+
+.adress2 {
+
+    width: 114px;
+    height: 21px;
+    left: 135px;
+    top: 417px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    color: #333333;
+}
+
+.adress3 {
+
+    width: 179px;
+    height: 19px;
+    left: 135px;
+    top: 491px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+
+    color: #333333;
+}
+
 
 .about {
     height: 585px;
@@ -144,10 +337,42 @@ a.head {
     flex-direction: row;
     align-items: center;
     justify-content: center;
+
+}
+
+.prjct1-text {
+    display: flex;
+    background-color: rgba (0, 0, 0.3);
+    background-image: url(/assets/pics/Rectangle_12.jpg);
+
+    width: 570px;
+    height: 255px;
+    left: 135px;
+    top: 2151px;
+
+}
+
+.prjct1-text1 {
+    display: flex;
+    width: 570px;
+    height: 255px;
+    left: 135px;
+    top: 2151px;
+    background-image: url(/assets/pics/Rectangle_17.jpg);
+    opacity: 0.8;
 }
 
 .img-text {
-    position: relative;
+    width: 570px;
+    height: 255px;
+    left: 135px;
+    top: 2151px;
+    display: flex;
+    justify-content: center;
+
+
+
+
 }
 
 .box2 {
@@ -162,8 +387,12 @@ a.head {
 }
 
 .projectlorumimg {
+    display: flex;
+
+    align-items: flex-end;
     width: 770px;
     height: 829px;
+
     background-image: url(/assets/pics/Rectangle\ 6.jpg);
 }
 
