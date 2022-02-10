@@ -32,6 +32,7 @@ body {
 
 .header-logo {
     justify-self: start;
+    padding-left: 25%;
 }
 
 a.head {
@@ -75,7 +76,28 @@ a.head {
     height: 949px;
     display: grid;
     grid-template-columns: 1fr 2fr;
+}
 
+.projectlorumtitle {
+    padding-top: 333px;
+}
+
+h2 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 64px;
+    line-height: 64px;
+    color: #BDBDBD;
+}
+
+h3 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 64px;
+    color: #333333;
 }
 
 .num1 {
@@ -151,8 +173,6 @@ a.head {
     text-transform: uppercase;
 
     color: #FFFFFF;
-
-
 }
 
 .lightbtn2 {
@@ -276,10 +296,7 @@ a.head {
 
 }
 
-.mainfocus {
-    height: 388px;
-}
-
+/*MainFocus section Landing page*/
 .section-title {
     margin: 0;
     margin-bottom: 1em;
@@ -295,6 +312,7 @@ a.head {
     display: grid;
     grid-template-columns: 0.2fr 1fr 0.3fr 1fr;
     grid-template-areas: "letter1 paragraph1 letter2 paragraph2";
+    margin-bottom: 1em;
 }
 
 .letter1 {
@@ -335,14 +353,16 @@ a.head {
     color: #333333;
 }
 
+/*ourprojects*/
 .ourprojects {
-    height: 885px;
+    display: block;
+    margin-bottom: 5%;
+    padding: 0;
 }
 
 .projects {
     display: flex;
     align-items: center;
-    justify-content: center;
     flex-direction: column;
     background: #FBFBFB;
 }
@@ -350,8 +370,11 @@ a.head {
 .box1 {
     display: flex;
     flex-direction: row;
+    gap: 2%;
+    margin-bottom: 2%;
+    padding: 0;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
 
 }
 
@@ -384,22 +407,17 @@ a.head {
     top: 2151px;
     display: flex;
     justify-content: center;
-
-
-
-
 }
 
 .box2 {
     display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-content: center;
+    align-items: stretch;
+    justify-content: space-evenly;
+    gap: 2%;
+    padding: 0;
 }
 
-.contactus {
-    height: 723px;
-}
 
 .projectlorumimg {
     display: flex;
@@ -409,28 +427,6 @@ a.head {
     height: 829px;
 
     background-image: url(/assets/pics/Rectangle\ 6.jpg);
-}
-
-.projectlorumtitle {
-    padding-top: 333px;
-}
-
-h2 {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 64px;
-    line-height: 64px;
-    color: #BDBDBD;
-}
-
-h3 {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 64px;
-    line-height: 64px;
-    color: #333333;
 }
 
 footer {
