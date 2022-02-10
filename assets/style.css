@@ -1,5 +1,4 @@
 body {
-
     display: flex;
     align-items: center;
     justify-content: center;
@@ -7,7 +6,6 @@ body {
 }
 
 .container {
-
     grid-template-rows: 105px 3530px 417px;
     grid-template-areas:
         "header"
@@ -28,7 +26,6 @@ body {
     max-width: 1440px;
     max-height: 100%;
     justify-content: center;
-
 }
 
 .container2 {
@@ -40,7 +37,6 @@ body {
     max-width: 100%;
     max-height: 100%;
     justify-content: center;
-
 }
 
 .header {
@@ -50,7 +46,6 @@ body {
     align-items: center;
     padding-right: 200px;
     border: 10px double black;
-
 }
 
 .header-logo {
@@ -63,9 +58,8 @@ a.head {
     list-style: none;
     font-family: Roboto;
     font-style: normal;
-
     text-transform: uppercase;
-    font-weight: 4001;
+    font-weight: 400;
     font-size: 12px;
     letter-spacing: 0.2em;
     line-height: 12px;
@@ -78,9 +72,8 @@ a.head {
     list-style: none;
     font-family: Roboto;
     font-style: normal;
-
     text-transform: uppercase;
-    font-weight: 4001;
+    font-weight: 400;
     font-size: 12px;
     letter-spacing: 0.2em;
     line-height: 12px;
@@ -90,7 +83,6 @@ a.head {
 .main {
     grid-area: main;
     padding-left: 135px;
-
     max-height: 100%;
     border: 10px double black;
 }
@@ -103,6 +95,14 @@ a.head {
 
 .projectlorumtitle {
     padding-top: 333px;
+}
+
+.projectlorumimg {
+    display: flex;
+    align-items: flex-end;
+    width: 770px;
+    height: 829px;
+    background-image: url(/assets/pics/Rectangle\ 6.jpg);
 }
 
 h2 {
@@ -126,7 +126,6 @@ h3 {
 .num1 {
     width: 141.88px;
     height: 31px;
-
     top: 799px;
     font-family: Roboto;
     font-style: normal;
@@ -140,9 +139,7 @@ h3 {
     background-image: url(/assets/pics/Group9.png);
     width: 52.95px;
     height: 53px;
-
     top: 656px;
-
     border: 1px solid #F2F2F2;
     box-sizing: border-box;
 }
@@ -153,7 +150,6 @@ h3 {
     height: 53px;
     left: 210.94px;
     top: 656px;
-
     border: 1px solid #F2F2F2;
     box-sizing: border-box;
 }
@@ -167,11 +163,9 @@ h3 {
     left: 534.66px;
     top: 850px;
     border: #ffffff;
-
 }
 
 .lightbtn1 {
-
     background-image: url(/assets/pics/Group\ 12.svg);
     width: 129px;
     height: 24px;
@@ -192,7 +186,6 @@ h3 {
     line-height: 12px;
     letter-spacing: 0.2em;
     text-transform: uppercase;
-
     color: #FFFFFF;
 }
 
@@ -224,7 +217,6 @@ h3 {
     height: 71px;
     left: 71px;
     top: 30px;
-
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
@@ -239,7 +231,6 @@ h3 {
     height: 949px;
     display: grid;
     grid-template-columns: 400px 770px;
-
 }
 
 .infocontacttitle {
@@ -247,28 +238,22 @@ h3 {
 }
 
 .adress {
-
     width: 280px;
     height: 46px;
     left: 135px;
     top: 350px;
-
     font-family: Roboto;
     font-style: normal;
-
     font-size: 16px;
     line-height: 21px;
-
     color: #333333;
 }
 
 .adress1 {
-
     width: 280px;
     height: 46px;
     left: 135px;
     top: 327px;
-
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
@@ -279,12 +264,10 @@ h3 {
 }
 
 .adress2 {
-
     width: 114px;
     height: 21px;
     left: 135px;
     top: 417px;
-
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
@@ -294,7 +277,6 @@ h3 {
 }
 
 .adress3 {
-
     width: 179px;
     height: 19px;
     left: 135px;
@@ -383,7 +365,6 @@ h3 {
 
 .projects {
     display: flex;
-    align-items: center;
     flex-direction: column;
     background: #FBFBFB;
 }
@@ -394,60 +375,42 @@ h3 {
     gap: 2%;
     margin-bottom: 2%;
     padding: 0;
-    align-items: center;
-    justify-content: space-evenly;
-
 }
 
 .prjct1-text {
     display: flex;
-    background-color: rgba (0, 0, 0.3);
+    justify-content: start;
+    background-color: rgba(0, 0, 0.3);
     background-image: url(/assets/pics/Rectangle_12.jpg);
-
-    width: 570px;
-    height: 255px;
-    left: 135px;
-    top: 2151px;
-
+    padding: 0;
+    margin: 0;
 }
 
 .prjct1-text1 {
     display: flex;
-    width: 570px;
-    height: 255px;
-    left: 135px;
-    top: 2151px;
+    padding: 0;
+    margin: 0;
     background-image: url(/assets/pics/Rectangle_17.jpg);
     opacity: 0.8;
 }
 
 .img-text {
-    width: 570px;
-    height: 255px;
-    left: 135px;
-    top: 2151px;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    padding: 0;
+    padding-left: 15%;
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 4em;
 }
 
 .box2 {
     display: flex;
     flex-direction: row;
-    align-items: stretch;
-    justify-content: space-evenly;
     gap: 2%;
     padding: 0;
-}
-
-
-.projectlorumimg {
-    display: flex;
-
-    align-items: flex-end;
-    width: 770px;
-    height: 829px;
-
-    background-image: url(/assets/pics/Rectangle\ 6.jpg);
 }
 
 footer {
