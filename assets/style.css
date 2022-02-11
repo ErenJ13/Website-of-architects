@@ -1,5 +1,4 @@
 .body {
-
     max-width: 1440px;
     display: flex;
     width: 100%;
@@ -7,12 +6,9 @@
     justify-content: center;
     border: 10px double rgb(209, 69, 69);
     margin: 0 auto;
-
 }
 
 .container {
-    display: grid;
-
     grid-template-rows: 105px 3530px 417px;
     grid-template-areas:
         "header"
@@ -20,9 +16,29 @@
         "footer";
     max-width: 100%;
     max-height: 100%;
-
     border: 10px double black;
+}
 
+.container1 {
+    grid-template-rows: 105px 902px 417px;
+    grid-template-areas:
+        "header"
+        "main"
+        "footer";
+    max-width: 1440px;
+    max-height: 100%;
+    justify-content: center;
+}
+
+.container2 {
+    grid-template-rows: 105px 802px 417px;
+    grid-template-areas:
+        "header"
+        "main"
+        "footer";
+    max-width: 100%;
+    max-height: 100%;
+    justify-content: center;
 }
 
 .header {
@@ -32,12 +48,12 @@
     align-items: center;
     padding-right: 200px;
     border: 10px double black;
-
 }
 
 .header-logo {
     justify-self: start;
     padding-left: 135px;
+    padding-left: 25%;
 }
 
 a.head {
@@ -45,9 +61,8 @@ a.head {
     list-style: none;
     font-family: Roboto;
     font-style: normal;
-
     text-transform: uppercase;
-    font-weight: 4001;
+    font-weight: 400;
     font-size: 12px;
     letter-spacing: 0.2em;
     line-height: 12px;
@@ -60,9 +75,8 @@ a.head {
     list-style: none;
     font-family: Roboto;
     font-style: normal;
-
     text-transform: uppercase;
-    font-weight: 4001;
+    font-weight: 400;
     font-size: 12px;
     letter-spacing: 0.2em;
     line-height: 12px;
@@ -72,7 +86,6 @@ a.head {
 .main {
     grid-area: main;
     padding-left: 135px;
-
     max-height: 100%;
     border: 10px double black;
 }
@@ -81,13 +94,41 @@ a.head {
     height: 949px;
     display: grid;
     grid-template-columns: 1fr 2fr;
+}
 
+.projectlorumtitle {
+    padding-top: 333px;
+}
+
+.projectlorumimg {
+    display: flex;
+    align-items: flex-end;
+    width: 770px;
+    height: 829px;
+    background-image: url(/assets/pics/Rectangle\ 6.jpg);
+}
+
+h2 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 64px;
+    line-height: 64px;
+    color: #BDBDBD;
+}
+
+h3 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 64px;
+    color: #333333;
 }
 
 .num1 {
     width: 141.88px;
     height: 31px;
-
     top: 799px;
     font-family: Roboto;
     font-style: normal;
@@ -101,9 +142,7 @@ a.head {
     background-image: url(/assets/pics/Group9.png);
     width: 52.95px;
     height: 53px;
-
     top: 656px;
-
     border: 1px solid #F2F2F2;
     box-sizing: border-box;
 }
@@ -114,7 +153,6 @@ a.head {
     height: 53px;
     left: 210.94px;
     top: 656px;
-
     border: 1px solid #F2F2F2;
     box-sizing: border-box;
 }
@@ -128,11 +166,9 @@ a.head {
     left: 534.66px;
     top: 850px;
     border: #ffffff;
-
 }
 
 .lightbtn1 {
-
     background-image: url(/assets/pics/Group\ 12.svg);
     width: 129px;
     height: 24px;
@@ -151,14 +187,9 @@ a.head {
     font-weight: normal;
     font-size: 12px;
     line-height: 12px;
-    /* identical to box height, or 100% */
-
     letter-spacing: 0.2em;
     text-transform: uppercase;
-
     color: #FFFFFF;
-
-
 }
 
 .lightbtn2 {
@@ -189,7 +220,6 @@ a.head {
     height: 71px;
     left: 71px;
     top: 30px;
-
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
@@ -204,36 +234,29 @@ a.head {
     height: 949px;
     display: grid;
     grid-template-columns: 400px 770px;
-
 }
 
-.nfocontacttitle {
-    padding-top: 333px;
+.infocontacttitle {
+    padding-top: 33px;
 }
 
 .adress {
-
     width: 280px;
     height: 46px;
     left: 135px;
     top: 350px;
-
     font-family: Roboto;
     font-style: normal;
-
     font-size: 16px;
     line-height: 21px;
-
     color: #333333;
 }
 
 .adress1 {
-
     width: 280px;
     height: 46px;
     left: 135px;
     top: 327px;
-
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
@@ -244,12 +267,10 @@ a.head {
 }
 
 .adress2 {
-
     width: 114px;
     height: 21px;
     left: 135px;
     top: 417px;
-
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
@@ -259,7 +280,6 @@ a.head {
 }
 
 .adress3 {
-
     width: 179px;
     height: 19px;
     left: 135px;
@@ -280,10 +300,7 @@ a.head {
 
 }
 
-.mainfocus {
-    height: 388px;
-}
-
+/*MainFocus section Landing page*/
 .section-title {
     margin: 0;
     margin-bottom: 1em;
@@ -299,6 +316,7 @@ a.head {
     display: grid;
     grid-template-columns: 0.2fr 1fr 0.3fr 1fr;
     grid-template-areas: "letter1 paragraph1 letter2 paragraph2";
+    margin-bottom: 1em;
 }
 
 .letter1 {
@@ -339,14 +357,15 @@ a.head {
     color: #333333;
 }
 
+/*ourprojects*/
 .ourprojects {
-    height: 885px;
+    display: block;
+    margin-bottom: 5%;
+    padding: 0;
 }
 
 .projects {
     display: flex;
-    align-items: center;
-    justify-content: center;
     flex-direction: column;
     background: #FBFBFB;
 }
@@ -356,87 +375,62 @@ a.head {
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    gap: 2%;
+    margin-bottom: 2%;
+    padding: 0;
 }
 
 .prjct1-text {
     display: flex;
-    background-color: rgba (0, 0, 0.3);
+    justify-content: start;
+    background-color: rgba(0, 0, 0.3);
     background-image: url(/assets/pics/Rectangle_12.jpg);
     width: 570px;
     height: 255px;
     left: 135px;
     top: 2151px;
+    padding: 0;
+    margin: 0;
+
 }
 
 .prjct1-text1 {
     display: flex;
-    width: 570px;
-    height: 255px;
-    left: 135px;
-    top: 2151px;
+    padding: 0;
+    margin: 0;
     background-image: url(/assets/pics/Rectangle_17.jpg);
     opacity: 0.8;
 }
 
 .img-text {
-    width: 570px;
-    height: 255px;
-    left: 135px;
-    top: 2151px;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    padding: 0;
+    padding-left: 15%;
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 4em;
 }
 
 .box2 {
     display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-content: center;
-}
-
-.contactus {
-    height: 723px;
-}
-
-.projectlorumimg {
-    display: flex;
-    align-items: flex-end;
-    width: 770px;
-    height: 829px;
-    background-image: url(/assets/pics/Rectangle\ 6.jpg);
-}
-
-.projectlorumtitle {
-    padding-top: 333px;
-}
-
-h2 {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 64px;
-    line-height: 64px;
-    color: #BDBDBD;
-}
-
-h3 {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 64px;
-    line-height: 64px;
-    color: #333333;
+    gap: 2%;
+    padding: 0;
 }
 
 footer {
     background-image: url(/assets/pics/Rectangle\ 11.png);
     display: grid;
     justify-content: end;
+
     grid-area: footer;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: auto;
 
-
+    padding-bottom: 50px;
 }
 
 .logoft {
@@ -505,12 +499,12 @@ h3.ft {
     color: #FFFFFF;
 }
 
-.map {
+.map1 {
 
-    left: 50.12%;
-    right: 62.11%;
-    top: 37.0%;
-    bottom: 71.46%;
+    width: 700px;
+    height: 600px;
+    left: 150px;
+    top: 300px;
     box-sizing: border-box;
 }
 
@@ -573,4 +567,26 @@ h3.ft {
     line-height: 22px;
     align-items: center;
     color: rgba(200, 200, 200, 0.5);
+}
+
+
+
+.certification {
+    height: 949px;
+    display: grid;
+
+    grid-template-rows: 1fr 1fr 1fr;
+    justify-content: start;
+    margin: auto;
+
+
+}
+
+.certificate {
+    padding-top: 33px;
+}
+
+.certificate1 {
+    width: 400px;
+    border: 1px solid#333333;
 }
