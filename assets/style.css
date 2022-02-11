@@ -454,11 +454,9 @@ footer {
     color: #FFFFFF;
 }
 
-.contact {}
 
-.social {
-    margin: 3px;
-}
+
+
 
 a.ft {
     position: absolute;
@@ -520,6 +518,9 @@ h3.ft {
 
     width: 10px;
     height: 19px;
+    left: 1px;
+    top: 43px;
+    padding-right: 30px;
 
 }
 
@@ -527,21 +528,27 @@ h3.ft {
 
     width: 22px;
     height: 17px;
-
+    left: 51px;
+    top: 46px;
+    padding-right: 30px;
 }
 
 .linkedin {
 
     width: 20px;
     height: 20px;
-
+    left: 113px;
+    top: 44px;
+    padding-right: 30px;
 }
 
 .pinterest {
 
     width: 14px;
     height: 19px;
-
+    left: 173px;
+    top: 45px;
+    padding-right: 30px;
 }
 
 .line {
