@@ -147,6 +147,7 @@ h3 {
 }
 
 .lightbtn1 {
+    display: flex;
     background-image: url(/assets/pics/Group\ 12.svg);
     width: 129px;
     height: 24px;
@@ -439,6 +440,20 @@ h3 {
     left: 135px;
     top: 1276px;
 }
+
+.contactus {
+
+    repeat: no-repeat
+}
+
+.form-group {
+
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+
+}
+
+
 
 footer {
     background-image: url(/assets/pics/Rectangle\ 11.png);
