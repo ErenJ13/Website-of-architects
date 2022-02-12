@@ -4,7 +4,7 @@
     width: 100%;
     align-items: center;
     justify-content: center;
-    border: 10px double rgb(209, 69, 69);
+
     margin: 0 auto;
     padding: 0px;
 }
@@ -17,7 +17,7 @@
         "footer";
     max-width: 100%;
     max-height: 100%;
-    border: 10px double black;
+
 }
 
 .header {
@@ -26,13 +26,14 @@
     grid-template-columns: 2fr 3fr;
     align-items: center;
     padding-right: 200px;
-    border: 10px double black;
+
 }
 
 .header-logo {
     justify-self: start;
     padding-left: 135px;
     padding-left: 25%;
+    padding-top: 30px;
 }
 
 a.head {
@@ -66,7 +67,7 @@ a.head {
     grid-area: main;
     padding-left: 135px;
     max-height: 100%;
-    border: 10px double black;
+
 }
 
 .projectlorum {
@@ -524,7 +525,8 @@ h3 {
 }
 
 
-footer {
+.footermain,
+.footer {
     background-image: url(/assets/pics/Rectangle\ 11.png);
     display: grid;
     justify-content: end;
