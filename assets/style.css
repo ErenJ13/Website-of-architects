@@ -275,8 +275,27 @@ h3 {
 
 .about {
     height: 585px;
+    display: grid;
+    grid-template-columns: 700px 1fr;
 }
 
+.aboutleft {
+    display: grid;
+    grid-template-columns: 1fr 300px;
+    padding-top: 30px;
+}
+
+
+.sectiontext {
+    width: 400px;
+    height: 200px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 25px;
+    color: #000000;
+}
 
 .section-title {
     margin: 0;
