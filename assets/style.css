@@ -515,23 +515,13 @@ h3 {
 }
 
 
-
-.form-group {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-}
-
 .contactus {
     height: 723px;
 }
 
 .formgroup {
     grid-area: formgroup;
-
-
-
 }
-
 
 
 footer {
