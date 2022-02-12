@@ -219,6 +219,7 @@ h3 {
 
 .infocontacttitle {
     padding-top: 33px;
+
 }
 
 .adress {
@@ -524,8 +525,18 @@ h3 {
     grid-area: formgroup;
 }
 
+.footermaingroup {
+    grid-area: footermaingroup;
+}
 
-.footermain,
+.contact {
+    grid-area: contact;
+}
+
+.social {
+    grid-area: social;
+}
+
 .footer {
     background-image: url(/assets/pics/Rectangle\ 11.png);
     display: grid;
@@ -533,19 +544,22 @@ h3 {
     grid-area: footer;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: auto;
-    padding-bottom: 50px;
-    padding-top: 30px;
+    grid-template-areas:
+        " logoft info contact social"
+        "line line line line"
+        "copyright copyright copyright copyright";
+    padding-top: 58px;
 }
 
 .logoft {
-
+    grid-area: logoft;
     padding-top: 30px;
     padding-left: 135px;
 
 }
 
 .info {
-
+    grid-area: info;
     left: 400px;
     top: 20px;
     font-family: Roboto;
@@ -644,9 +658,10 @@ h3.ft {
 
 }
 
-.line {
 
-    width: 1440px;
+.line {
+    grid-area: line;
+    width: 100%;
     height: 0px;
     left: 0px;
     mix-blend-mode: normal;
@@ -654,18 +669,15 @@ h3.ft {
     border: 1px solid #FFFFFF;
 }
 
-
 .copyright {
-
-    width: 150px;
-    height: 22px;
+    grid-area: copyright;
     font-family: Open Sans;
     font-style: normal;
     font-weight: normal;
-    font-size: 12px;
-    line-height: 22px;
+    justify-self: center;
     justify-items: center;
     color: rgba(200, 200, 200, 0.5);
+    padding-top: 30px;
 
 }
 
