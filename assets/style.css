@@ -1,4 +1,4 @@
-.body {
+.bodymain {
     max-width: 100%;
     display: flex;
     width: 100%;
@@ -6,7 +6,7 @@
     justify-content: center;
 
     margin: 0 auto;
-    padding: 0px;
+
 }
 
 .containermain {
@@ -534,11 +534,11 @@ h3 {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: auto;
     padding-bottom: 50px;
+    padding-top: 30px;
 }
 
 .logoft {
-    width: 145px;
-    height: 94px;
+
     padding-top: 30px;
     padding-left: 135px;
 
@@ -558,7 +558,7 @@ h3 {
 }
 
 a.ft {
-    position: absolute;
+
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
@@ -592,6 +592,13 @@ h3.ft {
     color: #FFFFFF;
 }
 
+.socialgroup {
+    display: flex;
+    justify-content: space-around;
+    border: 10px;
+    width: 193px;
+}
+
 .map1 {
     width: 700px;
     height: 600px;
@@ -611,9 +618,7 @@ h3.ft {
 
     width: 10px;
     height: 19px;
-    left: 1px;
-    top: 43px;
-    padding-right: 30px;
+
 
 }
 
@@ -621,27 +626,22 @@ h3.ft {
 
     width: 22px;
     height: 17px;
-    left: 51px;
-    top: 46px;
-    padding-right: 30px;
+
 }
 
 .linkedin {
 
     width: 20px;
     height: 20px;
-    left: 113px;
-    top: 44px;
-    padding-right: 30px;
+
+
 }
 
 .pinterest {
 
     width: 14px;
     height: 19px;
-    left: 173px;
-    top: 45px;
-    padding-right: 30px;
+
 }
 
 .line {
