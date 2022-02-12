@@ -176,7 +176,7 @@ h3 {
 .lightbtn2 {
     display: flex;
     align-items: flex-end;
-    background-image: url(/assets/pics/Frame\ 11\ \(1\).svg);
+    background-image: url(/assets/pics/Frame111.svg);
     width: 221.81px;
     height: 73px;
     left: 534.66px;
@@ -187,7 +187,7 @@ h3 {
 .lightbtn3 {
     display: flex;
     align-items: flex-end;
-    background-image: url(/assets/pics/Frame\ 11\ \(2\).svg);
+    background-image: url(/assets/pics/Frame112.svg);
     width: 221.81px;
     height: 73px;
     left: 534.66px;
@@ -411,7 +411,6 @@ h3 {
     height: 428px;
     left: 584px;
     top: 818px;
-
     font-family: Roboto;
     font-style: normal;
     font-weight: 300;
