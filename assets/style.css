@@ -5,10 +5,11 @@
     align-items: center;
     justify-content: center;
     border: 10px double rgb(209, 69, 69);
-    margin: auto;
+    margin: 0 auto;
+    padding: 0px;
 }
 
-.container {
+.containermain {
     grid-template-rows: 105px 3530px 417px;
     grid-template-areas:
         "header"
@@ -513,13 +514,22 @@ h3 {
     grid-column: 2 / 3;
 }
 
-.contactus {
-    repeat: no-repeat
-}
+
 
 .form-group {
     display: grid;
     grid-template-columns: 1fr 2fr;
+}
+
+.contactus {
+    height: 723px;
+}
+
+.formgroup {
+    grid-area: formgroup;
+
+
+
 }
 
 
@@ -682,4 +692,27 @@ h3.ft {
 .certificate1 {
     width: 400px;
     border: 1px solid#333333;
+}
+
+.darkbtn {
+    grid-area: darkbtn;
+    justify-content: end;
+    margin-top: 70px;
+}
+
+.contactus1 {
+    grid-area: contactus1;
+    max-width: 749px;
+    min-height: 369px;
+    padding-left: 30px;
+}
+
+.formcontactus {
+    display: grid;
+    grid-template-columns: 421px 749px;
+    grid-template-rows: 1fr 148px;
+    grid-template-areas:
+        "formgroup contactus1"
+        "darkbtn darkbtn";
+
 }
