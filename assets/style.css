@@ -269,12 +269,26 @@
     .about {
         height: 585px;
         display: grid;
-        grid-template-columns: 700px 1fr;
+        grid-template-columns: 1fr;
     }
 
     .aboutleft {
         display: grid;
-        grid-template-columns: 1fr 300px;
+        grid-template-columns: 1fr;
+
+    }
+
+    .aboutleft1 {
+
+        display: none;
+
+    }
+
+    .aboutleft2 {
+        padding-top: 60px;
+    }
+
+    .aboutright {
         padding-top: 30px;
     }
 
@@ -287,6 +301,7 @@
         font-size: 16px;
         line-height: 25px;
         color: #000000;
+        border: #ffffff double;
     }
 
     .section-title {
@@ -880,6 +895,22 @@
     .aboutleft {
         display: grid;
         grid-template-columns: 1fr 300px;
+
+    }
+
+    .aboutleft1 {
+        padding-top: 30px;
+        display: grid;
+        grid-template-rows: auto;
+        justify-content: end;
+        padding-right: 30px;
+    }
+
+    .aboutleft2 {
+        padding-top: 60px;
+    }
+
+    .aboutright {
         padding-top: 30px;
     }
 
@@ -892,6 +923,7 @@
         font-size: 16px;
         line-height: 25px;
         color: #000000;
+        border: #ffffff double;
     }
 
     .section-title {
