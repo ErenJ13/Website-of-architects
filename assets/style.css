@@ -2,7 +2,6 @@
     .bodymain {
         max-width: 100%;
         display: flex;
-        width: 100%;
         align-items: center;
         justify-content: center;
         margin: 0 auto;
@@ -11,8 +10,7 @@
     .containermain {
         grid-template-areas:
             "header"
-            "main"
-            "footer";
+            "main";
         max-width: 100%;
         max-height: 100%;
     }
@@ -22,14 +20,13 @@
         display: grid;
         grid-template-columns: 2fr 3fr;
         align-items: center;
-        padding-right: 70px;
+        padding-right: 1em;
     }
 
     .header-logo {
         justify-self: start;
-        padding-left: 70px;
-        padding-left: 25%;
-        padding-top: 30px;
+        padding-left: 6em;
+        padding-top: 1em;
     }
 
     a.head {
@@ -47,7 +44,7 @@
 
     .header-nav {
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
         list-style: none;
         font-family: Roboto;
         font-style: normal;
@@ -61,33 +58,35 @@
 
     .main {
         grid-area: main;
-        padding-left: 70px;
+        padding-left: 2em;
         max-height: 100%;
     }
 
     .projectlorum {
         display: grid;
-        grid-template-columns: 1fr 2fr;
+        grid-template-columns: 2fr 2fr;
     }
 
     .projectlorumtitle {
-        padding-top: 333px;
+        padding-top: 330px;
+        padding-right: 1em;
     }
 
     .projectlorumimg {
         display: flex;
         align-items: flex-end;
-        width: 770px;
-        height: 829px;
+        width: 700px;
         background-image: url(/assets/pics/Rectangle\ 6.jpg);
+        overflow: hidden;
+        object-fit: cover;
     }
 
     h2 {
         font-family: Roboto;
         font-style: normal;
         font-weight: 300;
-        font-size: 64px;
-        line-height: 64px;
+        font-size: 2em;
+        line-height: 1em;
         color: #BDBDBD;
     }
 
@@ -95,8 +94,8 @@
         font-family: Roboto;
         font-style: normal;
         font-weight: bold;
-        font-size: 64px;
-        line-height: 64px;
+        font-size: 2em;
+        line-height: 1em;
         color: #333333;
     }
 
@@ -206,19 +205,18 @@
     }
 
     .infocontact {
-        height: 949px;
         display: grid;
-        grid-template-columns: 400px 770px;
+        grid-template-columns: 1fr 2fr;
     }
 
     .infocontacttitle {
-        padding-top: 33px;
+        padding-top: 6em;
     }
 
     .adress {
         width: 280px;
         height: 46px;
-        left: 135px;
+        left: 1em;
         top: 350px;
         font-family: Roboto;
         font-style: normal;
@@ -230,7 +228,7 @@
     .adress1 {
         width: 280px;
         height: 46px;
-        left: 135px;
+        left: 1em;
         top: 327px;
         font-family: Roboto;
         font-style: normal;
@@ -243,7 +241,7 @@
     .adress2 {
         width: 114px;
         height: 21px;
-        left: 135px;
+        left: 1em;
         top: 417px;
         font-family: Roboto;
         font-style: normal;
@@ -256,7 +254,7 @@
     .adress3 {
         width: 179px;
         height: 19px;
-        left: 135px;
+        left: 1em;
         top: 491px;
         font-family: Roboto;
         font-style: normal;
@@ -267,14 +265,15 @@
     }
 
     .about {
-        height: 585px;
         display: grid;
-        grid-template-columns: 1fr;
+        <<<<<<< Updated upstream grid-template-columns: 1fr;
+        =======grid-template-columns: 2fr 1fr;
+        >>>>>>>Stashed changes
     }
 
     .aboutleft {
         display: grid;
-        grid-template-columns: 1fr;
+        <<<<<<< Updated upstream grid-template-columns: 1fr;
 
     }
 
@@ -290,6 +289,9 @@
 
     .aboutright {
         padding-top: 30px;
+        =======grid-template-columns: 1fr 300px;
+        padding-top: 6em;
+        >>>>>>>Stashed changes
     }
 
     .sectiontext {
@@ -387,7 +389,7 @@
         justify-content: start;
         background-color: rgba(0, 0, 0.3);
         background-image: url(/assets/pics/Rectangle_12.jpg);
-        width: 570px;
+        width: auto;
         height: 255px;
         left: 135px;
         padding: 0;
@@ -399,7 +401,7 @@
         display: flex;
         padding: 0;
         margin: 0;
-        width: 570px;
+        width: auto;
         background-image: url(/assets/pics/Rectangle_17.jpg);
         opacity: 0.8;
     }
