@@ -4,7 +4,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        margin: 0 auto;
+        margin: 0;
     }
 
     .containermain {
@@ -265,21 +265,18 @@
 
     .about {
         display: grid;
-        <<<<<<< Updated upstream grid-template-columns: 1fr;
-        =======grid-template-columns: 2fr 1fr;
-        >>>>>>>Stashed changes
+        grid-template-columns: 1fr;
+        grid-template-columns: 2fr 1fr;
     }
 
     .aboutleft {
         display: grid;
-        <<<<<<< Updated upstream grid-template-columns: 1fr;
+        grid-template-columns: 1fr;
 
     }
 
     .aboutleft1 {
-
         display: none;
-
     }
 
     .aboutleft2 {
@@ -288,9 +285,8 @@
 
     .aboutright {
         padding-top: 30px;
-        =======grid-template-columns: 1fr 300px;
+        grid-template-columns: 1fr 300px;
         padding-top: 6em;
-        >>>>>>>Stashed changes
     }
 
     .sectiontext {
@@ -327,23 +323,25 @@
         grid-area: letter1;
         justify-self: start;
         align-self: center;
+        padding-right: 1em;
     }
 
     .letter2 {
         grid-area: letter2;
         justify-self: start;
         align-self: center;
+        padding-right: 1em;
     }
 
     .paragraph1 {
         grid-area: paragraph1;
         justify-self: start;
         margin: 0;
-        margin-right: 7em;
+        margin-right: 1em;
         font-family: Roboto;
         font-style: normal;
         font-weight: 400;
-        font-size: 22px;
+        font-size: 16px;
         line-height: 36px;
         color: #333333;
     }
@@ -352,11 +350,11 @@
         grid-area: paragraph2;
         justify-self: start;
         margin: 0;
-        margin-right: 7em;
+        margin-right: 1em;
         font-family: Roboto;
         font-style: normal;
         font-weight: 200;
-        font-size: 22px;
+        font-size: 16px;
         line-height: 36px;
         color: #333333;
     }
@@ -377,8 +375,7 @@
 
     .box1 {
         display: flex;
-        flex-direction: row;
-        gap: 2%;
+        flex-direction: column;
         padding: 0;
         margin-bottom: 1em;
     }
@@ -386,42 +383,44 @@
     .prjct1-text {
         display: flex;
         justify-content: start;
-        background-color: rgba(0, 0, 0.3);
         background-image: url(/assets/pics/Rectangle_12.jpg);
+        background-repeat: no-repeat;
         width: auto;
         height: 255px;
-        left: 135px;
+        left: 2em;
         padding: 0;
         margin: 0;
-
     }
 
     .prjct1-text1 {
         display: flex;
-        padding: 0;
+        padding: 1em;
         margin: 0;
-        width: auto;
+        width: 75%;
         background-image: url(/assets/pics/Rectangle_17.jpg);
+        background-repeat: no-repeat;
         opacity: 0.8;
     }
 
     .img-text {
         display: flex;
         justify-content: space-around;
-        padding: 0;
-        padding-left: 15%;
+        padding: 2em;
+        padding-left: 2em;
         color: #FFFFFF;
         font-family: Roboto;
         font-style: normal;
         font-weight: 700;
-        font-size: 4em;
+        font-size: 2em;
+    }
+
+    .prjct2 {
+        padding-top: 1em;
     }
 
     .box2 {
-        display: flex;
-        flex-direction: row;
-        gap: 2%;
-        padding: 0;
+        display: none;
+
     }
 
     /*sampleproject PAGE*/
@@ -467,7 +466,7 @@
 
     /*our projects PAGE*/
     .projects-page {
-        padding-left: 35px;
+        padding-left: 1em;
         max-height: 100%;
         padding-bottom: 2em;
     }
@@ -592,13 +591,6 @@
         margin-top: 70px;
     }
 
-    .contactus1 {
-        grid-area: contactus1;
-        max-width: 749px;
-        min-height: 369px;
-        padding-left: 15px;
-    }
-
     .formcontactus {
         display: grid;
         grid-template-columns: 421px 749px;
@@ -606,6 +598,10 @@
         grid-template-areas:
             "formgroup contactus1"
             "darkbtn darkbtn";
+    }
+
+    .contactus1 {
+        display: none;
     }
 
     .footer {
