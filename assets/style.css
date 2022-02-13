@@ -150,11 +150,13 @@ h3 {
 
 .lightbtn1 {
     display: flex;
+    justify-content: flex-end;
     background-image: url(/assets/pics/Group\ 12.svg);
     width: 129px;
     height: 24px;
     left: 214px;
     top: 2335px;
+    margin-top: 20px;
     background-color: Transparent;
     background-repeat: no-repeat;
     border: none;
@@ -398,15 +400,19 @@ h3 {
 }
 
 .img-text {
-    display: flex;
-    justify-content: space-around;
-    padding: 0;
+    display: grid;
+    justify-content: center;
+    align-items: end;
+    padding: 50px;
     padding-left: 15%;
     color: #FFFFFF;
     font-family: Roboto;
     font-style: normal;
     font-weight: 700;
     font-size: 4em;
+
+    left: 214px;
+    top: 2199px;
 }
 
 .box2 {
@@ -560,11 +566,13 @@ h3 {
 
 .formgroup {
     grid-area: formgroup;
+
 }
 
 .footermaingroup {
     grid-area: footermaingroup;
 }
+
 
 .contact {
     grid-area: contact;
@@ -614,7 +622,7 @@ a.ft {
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 2px;
     padding-bottom: 100px;
     letter-spacing: 0.03em;
     text-decoration: none;
@@ -669,7 +677,7 @@ h3.ft {
 
     width: 10px;
     height: 19px;
-
+    margin-right: 25px;
 
 }
 
@@ -677,7 +685,7 @@ h3.ft {
 
     width: 22px;
     height: 17px;
-
+    margin-right: 25px;
 }
 
 .linkedin {
@@ -685,14 +693,14 @@ h3.ft {
     width: 20px;
     height: 20px;
 
-
+    margin-right: 25px;
 }
 
 .pinterest {
 
     width: 14px;
     height: 19px;
-
+    margin-right: 25px;
 }
 
 .line {
@@ -700,6 +708,7 @@ h3.ft {
     width: 100%;
     height: 0px;
     left: 0px;
+    margin-top: 30px;
     mix-blend-mode: normal;
     opacity: 0.1;
     border: 1px solid #FFFFFF;
@@ -714,6 +723,9 @@ h3.ft {
     justify-items: center;
     color: rgba(200, 200, 200, 0.5);
     padding-top: 15px;
+    font-size: 12px;
+    line-height: 22px;
+    color: rgba(200, 200, 200, 0.5);
 
 }
 
